@@ -1,0 +1,57 @@
+.main
+{
+  align-items: center;
+  text-align: center;
+  border: 2px solid blue;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+}
+.main>input
+{
+  display: inline;
+  margin-top: 5%;
+  margin-bottom: 40px;
+}
+.main>input:hover
+{
+  background: black;
+  color:white;
+}
+.buttons
+{
+font-size: 30px;
+width: 50px;
+height: 40px;
+border: 3px solid black;
+border-radius: 10px;
+margin: 20px;
+}
+.buttons:hover
+{
+  background: black;
+  color:white;
+}
+.result
+{
+  border: 3px solid blue;
+  font-size: 30px;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  margin-bottom: 60px;
+  overflow: hidden;
+}
+.result:hover
+{
+  background: blue;
+  color: white;
+}
+.texts
+{
+  border: 3px solid black;
+}
+h2
+{
+  font-family:sans-serif;
+}
